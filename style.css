@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI light';
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+     /* padding: 10px; */
+}
+.log{
+    float: left;
+    margin-left: 50px;
+    color: tan;
+}
+.navbar ul{
+    float: left;
+    /* position: relative; */
+    text-align: center;
+    list-style-type: none;
+}
+.navbar ul li {
+    float: left;
+}
+.navbar ul li a{
+    float: left;
+    /* text-align: center; */
+    list-style-type: none;
+    padding: 20px;
+    position: relative;
+    left: 650px;
+    color: wheat; 
+    text-decoration: none;
+
+}
+
+
+img{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+}
+.clear-fix{
+    clear: both;
+ }
+.header{
+    background-image: url(bg_4.jpg);
+    background-size: cover;
+    background-position:center center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+}
+.header p{
+    font-size: 30px;
+   
+}
+
+.button{
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+ }
+
+ .btn1{
+    background-color: tan;
+ }
+ .btn2{
+    background-color: tan;
+ }
+
+ .meals{
+    padding: 50px 0px;
+    text-align: center;
+    color: #888;
+ }
+
+ .meal{
+    float: left;
+    width: 25%;
+    border-radius: 25px;
+  }
+
+ .meal img{
+    border-radius: 50%;
+    /* background-size: cover;
+    background-position: center center; */
+    width: 200px;
+    height: 200px;
+    border: 3px solid tan;
+ }
+
+ .meal .border{
+    background-color: tan;
+    margin: 15px  auto;
+    width: 25%;
+    height: 3px;
+ }
+
+.our{
+    color: tan;
+    font-size: 40px;
+}
+
+.section{
+    /* background-color: tomato; */
+    height: 100vh;
+    text-align: center;
+    display: flex;
+}
+
+.image{
+    width: 50%;
+    height: 100vh;
+    /* background-color: #09c; */
+    float: right;
+
+}
+
+.image img{
+    
+    padding-left: 50px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50px 50px;
+}
+
+ .info{
+    margin: 100px;
+     width: 50%;
+    height: 100vh;
+    /* background-color: blue; */
+    text-align: center;
+    padding: 0px;
+}
+.info .btn-about{
+    margin-top: 30px;
+    background-color: tan;
+    color: white;
+    padding: 15px;
+    border: 1px solid #eee6e6;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.info h1{
+    color: #09c;
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+
+.info h2{
+    color: #ccc;
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(71, 68, 68);
+    color: white;
+}
+.our-section{
+    color: tan;
+}
+.info p{
+    color: #ccc;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.btn-about:hover,  .meal button:hover{
+    cursor: pointer;
+    background-color: rgb(71, 68, 68);
+    color: white;
+}
+
+.meal button{
+    margin-top: 30px;
+    background-color: tan;
+    color: white;
+    padding: 15px;
+    border: 1px solid #eee6e6;
+    border-radius: 25px;
+    cursor: pointer;
+}
